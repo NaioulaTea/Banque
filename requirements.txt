@@ -7,3 +7,4 @@ shap==0.42.1
 json5==0.9.6
 matplotlib==3.8.2
 starlette==0.35.1
+lightgbm==4.2.0
