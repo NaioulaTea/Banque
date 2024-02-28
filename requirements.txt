@@ -5,6 +5,6 @@ fastapi==0.109.0
 uvicorn==0.25.0
 shap==0.42.1
 json5==0.9.6
-matplotlib==3.8.2
+matplotlib==3.7.5
 starlette==0.35.1
 lightgbm==4.2.0
