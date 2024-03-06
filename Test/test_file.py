@@ -1,6 +1,5 @@
 import pytest
 from fastapi.testclient import TestClient
-from my_module import add, multiply  # Assuming my_module contains your functions
 
 # Assuming you have a FastAPI app named 'app' as in your code
 from myfastapi import app  # Replace 'main' with the actual name of your main FastAPI module
