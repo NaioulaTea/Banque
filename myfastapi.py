@@ -63,7 +63,7 @@ def get_prediction(sk_id_cust: int):
     }
 
 
-#if __name__ == '__main__':
-   # uvicorn.run(app)
+if __name__ == '__main__':
+    uvicorn.run(app)
 
 
