@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir --upgrade -r /GIT/requirements.txt
 COPY ./app /GIT/app
 
 # Définir la commande par défaut à exécuter lorsque le conteneur démarre
-CMD ["uvicorn", "app.myfastapi:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app.myfastapi:app", "--host", "0.0.0.0", "--port", "8080"]
