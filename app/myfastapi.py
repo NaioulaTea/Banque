@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from starlette.responses import Response
 
 # 2. Data import
-chemin = "/GIT/app/df_complet_sample.csv"
+chemin = "/GIT/app/credit_test_sample_data.csv"
 X = pd.read_csv(chemin,index_col= ['SK_ID_CURR'], encoding ='utf-8')
 
 
