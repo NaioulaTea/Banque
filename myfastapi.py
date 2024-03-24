@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from starlette.responses import Response
 
 # 2. Data import
-chemin = "/GIT/app/credit_test_sample_data.csv"
+chemin = "/GIT/credit_test_sample_data.csv"
 X = pd.read_csv(chemin,index_col= ['SK_ID_CURR'], encoding ='utf-8')
 
 
@@ -23,7 +23,7 @@ def get_root():
     return {'message': 'Welcome to the default payment risk prediction API'}
 
 # 4. Loading the trained model
-pickle_in = open("/GIT/app/score banque/model.pkl","rb")
+pickle_in = open("/GIT/score banque/model.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 # 5. Expose the prediction functionality, make a prediction from the passed
